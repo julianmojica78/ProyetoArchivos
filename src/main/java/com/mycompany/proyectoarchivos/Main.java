@@ -6,6 +6,7 @@ package com.mycompany.proyectoarchivos;
  */
 public class Main {
     public static void main(String [] args) {
-    Logica logica = new Logica();
+    Menu m = new Menu();
+    m.principal();
     }
 }
